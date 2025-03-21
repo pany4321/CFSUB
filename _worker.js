@@ -19,11 +19,7 @@ vless://126979e4-f914-4d92-82bd-214b920914c2@158.180.78.42:26657?encryption=none
 tuic://126979e4-f914-4d92-82bd-214b920914c2:126979e4-f914-4d92-82bd-214b920914c2@bigduan2.dynv6.net:21677?sni=bigduan2.dynv6.net&alpn=h3&congestion_control=bbr#bigduan2-tuic
 https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt
-https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
 https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/airport_sub_merge.txt
-https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge.txt
-https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub
 `
 
 let urls = [];
