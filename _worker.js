@@ -17,7 +17,6 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImJpZ2R1YW4yLVZNZXNzX1dTIiwNCiAgImFkZCI6
 hysteria2://126979e4-f914-4d92-82bd-214b920914c2@bigduan2.dynv6.net:10768/?sni=bigduan2.dynv6.net&alpn=h3&insecure=0#bigduan2-singbox_hysteria2
 vless://126979e4-f914-4d92-82bd-214b920914c2@158.180.78.42:26657?encryption=none&flow=xtls-rprx-vision&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=k-SF6sY6sxt4tFP59imCCA0XNiOEcw87ftFFjamVXFo&sid=6ba85179e30d4fc2&type=tcp&headerType=none#bigduan2-VLESS_Reality_Vision
 tuic://126979e4-f914-4d92-82bd-214b920914c2:126979e4-f914-4d92-82bd-214b920914c2@bigduan2.dynv6.net:21677?sni=bigduan2.dynv6.net&alpn=h3&congestion_control=bbr#bigduan2-tuic
-https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
 `
 
 let urls = [];
