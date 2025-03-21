@@ -1,18 +1,22 @@
 
 // 部署完成后在网址后面加上这个，获取自建节点和机场聚合节点，/?token=auto或/auto或
 
-let mytoken = 'auto';
-let guestToken = ''; //可以随便取，或者uuid生成，https://1024tools.com/uuid
+let mytoken = 'd0f5b432-af17-46b3-a0a5-d5a8dc4a9eb9';
+let guestToken = '8b47bcfa-6206-4746-acb6-2169eb80530e'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
 let BotToken = ''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID = ''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
 let FileName = 'CF-Workers-SUB';
-let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
+let SUBUpdateTime = 24; //自定义订阅更新时间，单位小时
 let total = 99;//TB
 let timestamp = 4102329600000;//2099-12-31
 
 //节点链接 + 订阅链接
 let MainData = `
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImJpZ2R1YW4yLVZNZXNzX1dTIiwNCiAgImFkZCI6ICJiaWdkdWFuMi5keW52Ni5uZXQiLA0KICAicG9ydCI6ICIxNzkxOCIsDQogICJpZCI6ICIxMjY5NzllNC1mOTE0LTRkOTItODJiZC0yMTRiOTIwOTE0YzIiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogImJpZ2R1YW4yLmR5bnY2Lm5ldCIsDQogICJwYXRoIjogIi9xYmlmIiwNCiAgInRscyI6ICJ0bHMiLA0KICAic25pIjogImJpZ2R1YW4yLmR5bnY2Lm5ldCIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiDQp9
+hysteria2://126979e4-f914-4d92-82bd-214b920914c2@bigduan2.dynv6.net:10768/?sni=bigduan2.dynv6.net&alpn=h3&insecure=0#bigduan2-singbox_hysteria2
+vless://126979e4-f914-4d92-82bd-214b920914c2@158.180.78.42:26657?encryption=none&flow=xtls-rprx-vision&security=reality&sni=addons.mozilla.org&fp=chrome&pbk=k-SF6sY6sxt4tFP59imCCA0XNiOEcw87ftFFjamVXFo&sid=6ba85179e30d4fc2&type=tcp&headerType=none#bigduan2-VLESS_Reality_Vision
+tuic://126979e4-f914-4d92-82bd-214b920914c2:126979e4-f914-4d92-82bd-214b920914c2@bigduan2.dynv6.net:21677?sni=bigduan2.dynv6.net&alpn=h3&congestion_control=bbr#bigduan2-tuic
 https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray
 https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt
 https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
